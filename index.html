@@ -59,12 +59,12 @@ nav a:hover {
     color: #d99a51;
 }
 
-/* ВЕРХНИЙ БАННЕР */
+/* БАННЕР */
 
 .top-banner {
     width: 100%;
-    background: #111;
     overflow: hidden;
+    background: #111;
 }
 
 .top-banner img {
@@ -84,8 +84,8 @@ nav a:hover {
     align-items: center;
     padding: 70px 10%;
     background:
-        linear-gradient(90deg, #111 10%, #111b 55%, #1118),
-        linear-gradient(0deg, #171717, #55402b);
+        linear-gradient(90deg,#111 10%,#111b 55%,#1118),
+        linear-gradient(0deg,#171717,#55402b);
 }
 
 .content {
@@ -157,7 +157,7 @@ h2 {
 
 .cards {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
     gap: 20px;
     margin-top: 35px;
 }
@@ -180,7 +180,7 @@ h2 {
     margin-bottom: 12px;
 }
 
-/* ЗАГРУЗКИ */
+/* БИЛДЫ */
 
 .download-section {
     background: #202020;
@@ -206,9 +206,13 @@ footer a {
     text-decoration: none;
 }
 
+footer a:hover {
+    color: #fff;
+}
+
 /* МОБИЛЬНАЯ ВЕРСИЯ */
 
-@media(max-width: 600px) {
+@media(max-width:600px) {
 
     header {
         padding: 0 5%;
@@ -273,10 +277,13 @@ footer a {
     </nav>
 </header>
 
-<!-- БАННЕР С ЛОГОТИПОМ -->
+<!-- ВЕРХНИЙ БАННЕР -->
 
 <div class="top-banner">
-    <img src="polyrust-banner.png" alt="PolyRust — Low Poly Survival">
+    <img
+        src="file_00000000b5b081f482aec957ec528ee2.png"
+        alt="PolyRust — Low Poly Survival"
+    >
 </div>
 
 <!-- ГЛАВНЫЙ БЛОК -->
@@ -301,14 +308,14 @@ footer a {
                href="https://t.me/PolyRust"
                target="_blank"
                rel="noopener noreferrer">
-               НОВОСТИ В TELEGRAM
+                НОВОСТИ В TELEGRAM
             </a>
 
             <a class="button boosty-button"
                href="https://boosty.to/gladiator_interactive"
                target="_blank"
                rel="noopener noreferrer">
-               ПОЛУЧИТЬ БИЛДЫ НА BOOSTY
+                ПОЛУЧИТЬ БИЛДЫ НА BOOSTY
             </a>
 
         </div>
@@ -377,7 +384,7 @@ footer a {
        href="https://boosty.to/gladiator_interactive"
        target="_blank"
        rel="noopener noreferrer">
-       ПОЛУЧИТЬ НОВЫЕ БИЛДЫ
+        ПОЛУЧИТЬ НОВЫЕ БИЛДЫ
     </a>
 
 </section>
@@ -392,17 +399,15 @@ footer a {
 
     <p>
         <a href="https://t.me/PolyRust"
-           target="_blank"
-           rel="noopener noreferrer">
-           Telegram проекта
+           target="_blank">
+            Telegram проекта
         </a>
     </p>
 
     <p>
         <a href="https://boosty.to/gladiator_interactive"
-           target="_blank"
-           rel="noopener noreferrer">
-           Boosty проекта
+           target="_blank">
+            Boosty проекта
         </a>
     </p>
 
